@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-st.logo("artifacts\\images\\first1.png", size="large", link=None, icon_image="artifacts\\images\\first1.png")
+st.logo("artifacts\\images\\first1.png", size="large", link=None, icon_image= "None")
 st.header("Animal Info Viewer")
 st.subheader("Select an animal to know about it's details")
 option = st.selectbox(

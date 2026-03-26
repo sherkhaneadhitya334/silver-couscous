@@ -1,6 +1,5 @@
 import streamlit as st
 st.write("Types of Animals")
-
 # Initialize session state for info visibility and current selections
 if "info_visible" not in st.session_state:
     st.session_state.info_visible = {}
