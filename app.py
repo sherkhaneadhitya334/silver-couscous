@@ -5,7 +5,7 @@ st.header("Animal Info Viewer")
 st.subheader("Select an animal to know about it's details")
 option = st.selectbox(
     "which type of animal info you want's to know?",
-    ("Reptiles", "Birds", "Mammals","Sea Animals"),
+    ("Reptiles", "Birds", "Mammals"),
     index=None,
     placeholder="Select Animal Type...",
 )
