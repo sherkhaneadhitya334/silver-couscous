@@ -114,7 +114,7 @@ if "animal_type" in st.session_state:
                         st.session_state.clicked["Cats"] = True
         elif selected_mammal == "Elephants":
             if st.session_state.info_visible.get("Elephants", True):
-                st.image("artifacts/images/elephants.png", caption="Elephant")
+                st.image("artifacts/images/Elephants.png", caption="Elephant")
                 st.write("Elephants are the largest land animals, known for their intelligence and strong social bonds. They are herbivorous and are found in Africa and Asia.")
                 if not st.session_state.clicked.get("Elephants", False):
                     if st.button("Thank you for the information!", key="thank_elephants"):
